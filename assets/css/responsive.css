@@ -1,0 +1,99 @@
+@media screen and (min-width: 63.9375em) {
+
+}
+@media screen and (min-width:46.25em) and (max-width: 63.9375em){
+
+  .ib-width-full{
+    width: 100% !important;
+  }
+  .buy-ticket li{
+    font-size: 17px;
+    padding: 15px 16px;
+  }
+  .address-body .conter-pe{
+    font-size: 17px;
+  }
+  .contact-info div {
+    font-size: 22px;
+    padding: 5px 0;
+    line-height: 1.7;
+  }
+  .ma-size-22{
+      font-size: 22px;
+      padding: 20px 0;
+  }
+
+}
+@media screen and (max-width: 63.9375em) {
+   .btn {
+     padding: 20px 16px;
+   }
+
+   .icon2 li a{
+    font-size: 30px;
+    padding:5px;
+   }
+   #var .v-box a{
+     padding: 5px 15px;
+   }
+   .form-control{
+     padding: 17px !important;
+     font-size: 17px;
+   }
+   #modal .md-container{
+     width: 500px !important;
+   }
+}
+
+@media screen and (max-width:46.1875em){
+  #header{
+    overflow: hidden;
+  }
+  #header #var > li {
+    display: block;
+    background-color: black;
+    
+  }
+ #header > #var > li:first-child{
+   display: inline-block;
+ }
+ #header .icon-menu,
+ #header #var{
+    display: block;
+  }
+  #header #var .v-box{
+    position: initial;
+    min-width: 800px;
+    background-color: rgba(85, 82, 82, 0.3);
+  }
+  #var .v-box a {
+    color:white;
+    text-transform: uppercase;
+    padding: 5px 42px;
+  }
+  #var .v-box a:hover{
+    color: #000;
+  }
+  #slider .introduce,
+  .ti-search{
+    display: none;
+  }
+  .mb-width-full,
+   .ct-member .saff-member,
+  .performances .address {
+    width: 100% !important;
+  }
+  .mb-margin-t8{
+    margin-top: 8px !important;
+    
+  }
+   .contact-form{
+     margin-top: 32px !important;
+  }
+  .contact-info div{
+    line-height: 1.5;
+  }
+  #modal .md-container{
+    width: 460px !important;
+  }
+}
